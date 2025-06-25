@@ -11,7 +11,7 @@ export const projects = [
   {
     id: 1,
     title: "Olist E-Commerce SQL Analysis & Dashboard",
-    des: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.",
+    des: "This project involves querying the Olist E-commerce dataset using SQL, preparing the data to be imported into Power BI, and designing an interactive dashboard for insightful visualization.",
     img: "/p1.png",
     iconLists: [
       { icon: "/sql.svg", name: "SQL" },
@@ -21,7 +21,7 @@ export const projects = [
   {
     id: 2,
     title: "Olympics Dashboard",
-    des: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.",
+    des: "Power BI dashboard created from the Tokyo 2020 Olympic Summer Games dataset.",
     img: "/p2.svg",
     iconLists: [
       { icon: "/powerbi.svg", name: "Power BI" },
@@ -30,7 +30,7 @@ export const projects = [
   {
     id: 3,
     title: "Netflix Library EDA",
-    des: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.",
+    des: "Exploratory Data Analysis of the Netflix Contents Dataset with Python.",
     img: "/p3.svg",
     iconLists: [
       { icon: "/python.svg", name: "Python" },
