@@ -12,7 +12,7 @@ export const projects = [
     id: 1,
     title: "Olist E-Commerce SQL Analysis & Dashboard",
     des: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.",
-    img: "/p1.svg",
+    img: "/p1.png",
     iconLists: [
       { icon: "/sql.svg", name: "SQL" },
       { icon: "/powerbi.svg", name: "Power BI" },
