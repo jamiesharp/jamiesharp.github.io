@@ -1,4 +1,3 @@
-
 export const skillItems = [
   { id: 1, name: "Excel", icon: "/excel.svg" },
   { id: 4, name: "Power BI", icon: "/powerbi.svg" },
@@ -17,6 +16,7 @@ export const projects = [
       { icon: "/sql.svg", name: "SQL" },
       { icon: "/powerbi.svg", name: "Power BI" },
     ],
+    link: "https://github.com/jamiesharp/data-analysis-projects/tree/main/Olist%20E-Commerce%20SQL%20Analysis%20%26%20Dashboard"
   },
   {
     id: 2,
@@ -26,6 +26,7 @@ export const projects = [
     iconLists: [
       { icon: "/powerbi.svg", name: "Power BI" },
     ],
+    link: "https://github.com/jamiesharp/data-analysis-projects/tree/main/Olympics%20Dashboard"
   },
   {
     id: 3,
@@ -37,6 +38,7 @@ export const projects = [
       { icon: "/pandas.svg", name: "Pandas" },
       { icon: "/matplotlib.svg", name: "Matplotlib" },
     ],
+    link: "https://github.com/jamiesharp/data-analysis-projects/tree/main/Portfolio%20EDA%20of%20Netflix%20Contents"
   },
   // {
   //   id: 4,
