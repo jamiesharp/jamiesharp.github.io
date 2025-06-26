@@ -8,15 +8,16 @@ interface ProjectModalProps {
   onClose: () => void;
   content: string;
   title: string;
+  link: string;
 }
 
-const ProjectModal: React.FC<ProjectModalProps> = ({ isOpen, onClose, content, title }) => {
+const ProjectModal: React.FC<ProjectModalProps> = ({ isOpen, onClose, content, title, link }) => {
   return (
     <Dialog open={isOpen} onOpenChange={onClose}>
       <DialogContent className="max-w-4xl max-h-[90vh] overflow-y-auto">
         <DialogHeader className="px-6 flex justify-center items-start">
 
-            <a href="https://github.com/jsharp00" target="_blank" rel="noopener noreferrer"
+            <a href={link} target="_blank" rel="noopener noreferrer"
               className="flex items-center justify-center h-12 gap-3 px-4 rounded-lg border border-black-300 bg-black-200 bg-opacity-75 backdrop-filter backdrop-blur-lg hover:bg-opacity-100 transition-all">
               <img src="/git.svg" alt="GitHub" width={20} height={20} />
               <p>View on GitHub</p>

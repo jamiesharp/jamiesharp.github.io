@@ -13,6 +13,7 @@ const RecentProjects = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [modalContent, setModalContent] = useState("");
   const [modalTitle, setModalTitle] = useState("");
+  const [modalLink, setModalLink] = useState("");
 
   const handleProjectClick = async (projectId: number) => {
     try {
@@ -22,6 +23,7 @@ const RecentProjects = () => {
       const project = projects.find(p => p.id === projectId);
       setModalTitle(project?.title || "");
       setModalContent(content);
+      setModalLink(project?.link || "");
       setIsModalOpen(true);
     } catch (error) {
       console.error("Error loading project details:", error);
@@ -103,6 +105,7 @@ const RecentProjects = () => {
         onClose={() => setIsModalOpen(false)}
         content={modalContent}
         title={modalTitle}
+        link={modalLink}
       />
     </div>
   );
