@@ -11,7 +11,7 @@ export const projects = [
     id: 1,
     title: "Olist E-Commerce SQL Analysis & Dashboard",
     des: "This project involves querying the Olist E-commerce dataset using SQL, preparing the data to be imported into Power BI, and designing an interactive dashboard for insightful visualization.",
-    img: "/p1.png",
+    img: "/p1-olist-dashboard.png",
     iconLists: [
       { icon: "/sql.svg", name: "SQL" },
       { icon: "/powerbi.svg", name: "Power BI" },
@@ -22,7 +22,7 @@ export const projects = [
     id: 2,
     title: "Olympics Dashboard",
     des: "Power BI dashboard created from the Tokyo 2020 Olympic Summer Games dataset.",
-    img: "/p2.svg",
+    img: "/p2-olympics-dashboard.png",
     iconLists: [
       { icon: "/powerbi.svg", name: "Power BI" },
     ],
@@ -32,7 +32,7 @@ export const projects = [
     id: 3,
     title: "Netflix Library EDA",
     des: "Exploratory Data Analysis of the Netflix Contents Dataset with Python.",
-    img: "/p3.svg",
+    img: "/p3-netflix-eda.svg",
     iconLists: [
       { icon: "/python.svg", name: "Python" },
       { icon: "/pandas.svg", name: "Pandas" },
@@ -40,14 +40,14 @@ export const projects = [
     ],
     link: "https://github.com/jamiesharp/data-analysis-projects/tree/main/Portfolio%20EDA%20of%20Netflix%20Contents"
   },
-  // {
-  //   id: 4,
-  //   title: "UK International Trade Dashboard",
-  //   des: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.",
-  //   img: "/p4.svg",
-  //   iconLists: [
-  //     { icon: "excel.svg", name: "Excel"}
-  //   ],
-  // },
+  {
+    id: 4,
+    title: "UK Trade Dashboard",
+    des: "Excel dashboard created from international trade data for goods traded to and from the UK in 2024.",
+    img: "/p4-uk-trade-dashboard.png",
+    iconLists: [
+      { icon: "excel.svg", name: "Excel"}
+    ],
+  },
 
 ];

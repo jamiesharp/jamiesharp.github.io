@@ -6,6 +6,7 @@ import { FaLocationArrow } from "react-icons/fa6";
 import { PinContainer } from "./ui/Pin";
 import ProjectModal from "./ui/ProjectModal";
 import { projects } from "@/data";
+import Image from "next/image";
 
 
 
@@ -32,7 +33,7 @@ const RecentProjects = () => {
 
   return (
     <div className="my-10" id="projects">
-      <div className="flex flex-wrap items-center justify-center p-4 gap-16 lg:gap-y-10 gap-y-0 mx-[-100px]">
+      <div className="flex flex-wrap items-center justify-center gap-x-16">
         {projects.map((item) => (
           <div
             className="lg:min-h-[32.5rem] h-[25rem] flex items-center justify-center sm:w-96 w-[80vw]"
@@ -42,17 +43,20 @@ const RecentProjects = () => {
               href="#"
               onClick={() => handleProjectClick(item.id)}
             >
-              <div className="relative flex items-center justify-center sm:w-96 w-[80vw] overflow-hidden h-[20vh] lg:h-[30vh] mb-10">
+              <div className="relative flex items-center justify-center sm:w-96 w-[80vw] overflow-hidden h-[20vh] lg:h-[25vh] mb-10">
                 <div
                   className="relative w-full h-full overflow-hidden lg:rounded-3xl"
                   style={{ backgroundColor: "#13162D" }}
                 >
-                  <img src="/bg.png" alt="bgimg" />
+
                 </div>
-                <img
+                
+                <Image
                   src={item.img}
                   alt="cover"
-                  className="z-10 absolute bottom-0"
+                  className="z-10 absolute px-4 border-white"
+                  width={400}
+                  height={120}
                 />
               </div>
 
