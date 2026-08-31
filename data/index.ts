@@ -9,14 +9,14 @@ export const skillItems = [
 export const projects = [
   {
     id: 1,
-    title: "Olist E-Commerce SQL Analysis & Dashboard",
-    des: "This project involves querying the Olist E-commerce dataset using SQL, preparing the data to be imported into Power BI, and designing an interactive dashboard for insightful visualization.",
-    img: "/p1-olist-dashboard.png",
+    title: "Olist E-Commerce SQL Exploratory Data Analysis",
+    des: "This project consists of performing an Exploratory Data Analysis of the Olist E-commerce dataset using SQL.",
+    img: "/p1-sql-logo.webp",
     iconLists: [
       { icon: "/sql.svg", name: "SQL" },
-      { icon: "/powerbi.svg", name: "Power BI" },
+      // { icon: "/powerbi.svg", name: "Power BI" },
     ],
-    link: "https://github.com/jamiesharp/data-analysis-projects/tree/main/Olist%20E-Commerce%20SQL%20Analysis%20%26%20Dashboard"
+    link: "https://github.com/jamiesharp/data-analysis-projects/tree/main/Olist%20E-Commerce%20SQL%20Analysis"
   },
   {
     id: 2,
